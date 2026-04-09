@@ -117,7 +117,15 @@ jobs:
       - name: Fail if tests failed
         if: steps.test.outcome == 'failure'
         run: |
-          echo "Tests failed. Click the 'Summary' tab on this workflow run for a detailed validation report."
+          echo "::error::Tests failed. Expand the 'Test' step above to see the full failure output."
+          if [ -f test_output.log ]; then
+            echo ""
+            echo "========== Failure Summary =========="
+            grep -A 2 'Failure\|Error\|FAIL\|expected.*but\|icon.*not found' test_output.log || true
+            echo "====================================="
+            echo ""
+            echo "For the complete output, expand the 'Test' step above."
+          fi
           exit 1
 
   # Runs once (not per matrix combination) to check PR file scope.

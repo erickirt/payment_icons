@@ -16,7 +16,7 @@ To add a new payment method icon to this repository:
 When you open a pull request:
 
 - ✅ **Automated Tests Run** — All 20 validation tests check your icon
-- ✅ **Instant Feedback** — If tests fail, click the failed check, then the **"Summary"** tab to see a detailed validation report showing exactly what needs fixing
+- ✅ **Instant Feedback** — If tests fail, click the failed check, then expand the **"Test"** step to see exactly what needs fixing
 - ⚠️ **File Scope Check** — If your PR changes files outside the expected scope, a warning annotation appears on the check (see [below](#file-scope-check))
 
 ---
