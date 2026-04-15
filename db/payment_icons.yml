@@ -3453,4 +3453,4 @@
 -
   name: bancodebogota
   label: Banco de Bogotá
-  group: other
+  group: bank_transfers
