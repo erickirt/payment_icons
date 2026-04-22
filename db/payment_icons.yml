@@ -379,6 +379,10 @@
   label: Newpay
   group: other
 -
+  name: blackhorseflexpay
+  label: Blackhorse Flexpay
+  group: other
+-
   name: klarna
   label: Klarna
   group: other
