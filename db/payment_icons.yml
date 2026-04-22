@@ -379,6 +379,10 @@
   label: Newpay
   group: other
 -
+  name: blackhorseflexpay
+  label: Blackhorse Flexpay
+  group: other
+-
   name: klarna
   label: Klarna
   group: other
@@ -3083,6 +3087,10 @@
   label: Leanpay
   group: other
 -
+  name: raiffeisenbank
+  label: Raiffeisen Bank
+  group: other
+-
   name: buckaroopayments
   label: Buckaroo Payments
   group: other
@@ -3453,4 +3461,8 @@
 -
   name: bancodebogota
   label: Banco de Bogotá
+  group: bank_transfers
+_
+  name: bobpayeft
+  label: Bob Pay
   group: bank_transfers
