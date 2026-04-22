@@ -3458,3 +3458,7 @@
   name: deema
   label: Deema
   group: other
+-
+  name: bobpayeft
+  label: Bob Pay
+  group: bank_transfers
