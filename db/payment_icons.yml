@@ -3459,6 +3459,10 @@
   label: Deema
   group: other
 -
+  name: bancodebogota
+  label: Banco de Bogotá
+  group: bank_transfers
+-
   name: bobpayeft
   label: Bob Pay
   group: bank_transfers
